@@ -44,11 +44,12 @@ namespace BackEnd_API.Controllers
         {
             if (id != user.id_user)
             {
-                _context.Entry(user).State = EntityState.Modified;
-                _context.SaveChanges();
-                return NoContent();
+                return BadRequest();
             }
-            return BadRequest();
+            _context.Entry(user).State = EntityState.Modified;
+            _context.SaveChanges();
+            return NoContent();
+       
         }
         [HttpDelete("{id}")]
             public ActionResult<User> Delete(int id)

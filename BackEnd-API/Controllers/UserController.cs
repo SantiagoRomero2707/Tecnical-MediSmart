@@ -14,6 +14,7 @@ namespace BackEnd_API.Controllers
             {
                 _context = context;
             }
+
             [HttpGet(Name = "GetProducto")]
             public ActionResult<IEnumerable<User>> GetAll()
             {
@@ -51,6 +52,7 @@ namespace BackEnd_API.Controllers
             return NoContent();
        
         }
+
         [HttpDelete("{id}")]
             public ActionResult<User> Delete(int id)
             {

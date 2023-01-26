@@ -2,7 +2,6 @@
 using BackEnd_API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Xml.Linq;
 
 namespace BackEnd_API.Controllers
 {
@@ -20,6 +19,7 @@ namespace BackEnd_API.Controllers
             {
                 return _context.User.ToList();
             }
+
             [HttpGet("{id}")]
             public ActionResult<User> GetById(int id)
             {

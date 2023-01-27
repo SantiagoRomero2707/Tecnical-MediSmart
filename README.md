@@ -1,8 +1,6 @@
 ﻿# PRUEBA TECNICA MEDISMART
 
-# My Service
-
-This is a RESTful service built using C# and the ASP.NET Core framework. It provides a simple API for managing a collection of resources.
+This is a RESTful service built using C# and the ASP.NET Core framework and connected with SQL Server 2019. It provides a simple API for managing a collection of users.
 
 ## Getting Started
 
@@ -12,32 +10,33 @@ These instructions will get you a copy of the project up and running on your loc
 
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
 - A text editor or IDE of your choice (e.g. Visual Studio, Visual Studio Code)
+- Install SQL Server 2019 and SQL Server Management Studio for use a GUI.
+- Install of extension of Swagger for .Net Core
 
 ### Installing
 
 1. Clone or download the repository to your local machine.
-2. Open a command prompt or terminal window and navigate to the project's root directory.
-3. Run the command `dotnet restore` to restore the project's dependencies.
-4. Run the command `dotnet run` to start the service.
-5. The service should now be running at `http://localhost:5000/`.
+   git clone https://github.com/SantiagoRomero2707/Tecnical-MediSmart.git
+2. Open the project in visual studio and execute the project.
+5. The service should now be running at `http://localhost:5000/swagger/index.html` and you can use of documentation for testing of service. 
 
 ### Endpoints
 
-- `GET /resources`: Retrieves a list of all resources.
-- `GET /resources/{id}`: Retrieves the details of a specific resource by ID.
-- `POST /resources`: Creates a new resource.
-- `PUT /resources/{id}`: Updates an existing resource.
-- `DELETE /resources/{id}`: Deletes a resource.
+- `GET /resources`: Retrieves a list of all users.
+- `GET /resources/{id}`: Retrieves the details of a specific user by ID.
+- `POST /resources`: Creates a new user.
+- `PUT /resources/{id}`: Updates an existing user.
+- `DELETE /resources/{id}`: Deletes a user.
 
 ### Example usage
 
-You can test the endpoints using a tool such as [Postman](https://www.postman.com/) or [curl](https://curl.haxx.se/).
+You can test the endpoints using a tool such as [Postman](https://www.postman.com/) or if you want with of client of swagger.
 
-- Retrieve a list of resources: `GET http://localhost:5000/resources`
-- Retrieve a specific resource: `GET http://localhost:5000/resources/1`
-- Create a new resource: `POST http://localhost:5000/resources` with a JSON payload in the request body
-- Update an existing resource: `PUT http://localhost:5000/resources/1` with a JSON payload in the request body
-- Delete a resource: `DELETE http://localhost:5000/resources/1`
+- Retrieve a list of resources: `GET http://localhost:7190/api/User`
+- Retrieve a specific resource: `GET http://localhost:7190/api/User/{id}`
+- Create a new resource: `POST http://localhost:5000/api/User (user` with a JSON payload in the request body)
+- Update an existing resource: `PUT http://localhost:5000/api/User/{id}` with a JSON payload in the request body
+- Delete a resource: `DELETE http://localhost:5000/api/User/{id}`
 
 ## Built With
 

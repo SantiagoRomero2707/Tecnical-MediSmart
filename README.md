@@ -18,7 +18,9 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone or download the repository to your local machine.
    git clone https://github.com/SantiagoRomero2707/Tecnical-MediSmart.git
 2. Open the project in visual studio and execute the project.
-5. The service should now be running at `http://localhost:7190/swagger/index.html` and you can use of documentation for testing of service. 
+3. Open SQL Server Management Studio and create of database with query in the repo.
+4. Create table for testing.
+5. The start of service should now be running at `http://localhost:7190/swagger/index.html` and you can use of documentation for testing of service. 
 
 ### Endpoints
 

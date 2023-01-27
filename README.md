@@ -1,6 +1,6 @@
 ﻿# TECNICAL INTERVIEW MEDISMART
 
-This is a RESTful service built using C# and the ASP.NET Core framework and connected with SQL Server 2019. It provides a simple API for managing a collection of users.
+This is a RESTful service built using C# and the ASP.NET Core framework and connected with SQL Server 2019. It provides a simple API for managing a collection of users. my contact email is santyago.2000@hotmail.com
 
 ## Getting Started
 
@@ -44,10 +44,6 @@ You can test the endpoints using a tool such as [Postman](https://www.postman.co
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
 - [SQL Server 2019](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
 - [Client of Swagger](https://swagger.io/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Additional Resources
 

@@ -1,4 +1,4 @@
-﻿# PRUEBA TECNICA MEDISMART
+﻿# TECNICAL INTERVIEW MEDISMART
 
 This is a RESTful service built using C# and the ASP.NET Core framework and connected with SQL Server 2019. It provides a simple API for managing a collection of users.
 

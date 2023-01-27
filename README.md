@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone or download the repository to your local machine.
    git clone https://github.com/SantiagoRomero2707/Tecnical-MediSmart.git
 2. Open the project in visual studio and execute the project.
-5. The service should now be running at `http://localhost:5000/swagger/index.html` and you can use of documentation for testing of service. 
+5. The service should now be running at `http://localhost:7190/swagger/index.html` and you can use of documentation for testing of service. 
 
 ### Endpoints
 
@@ -34,9 +34,9 @@ You can test the endpoints using a tool such as [Postman](https://www.postman.co
 
 - Retrieve a list of resources: `GET http://localhost:7190/api/User`
 - Retrieve a specific resource: `GET http://localhost:7190/api/User/{id}`
-- Create a new resource: `POST http://localhost:5000/api/User` (user` with a JSON payload in the request body)
-- Update an existing resource: `PUT http://localhost:5000/api/User/{id}` with a JSON payload in the request body
-- Delete a resource: `DELETE http://localhost:5000/api/User/{id}`
+- Create a new resource: `POST http://localhost:7190/api/User` (user` with a JSON payload in the request body)
+- Update an existing resource: `PUT http://localhost:7190/api/User/{id}` with a JSON payload in the request body
+- Delete a resource: `DELETE http://localhost:7190/api/User/{id}`
 
 ## Built With
 

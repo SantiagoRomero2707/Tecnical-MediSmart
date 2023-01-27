@@ -22,11 +22,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Endpoints
 
-- `GET /resources`: Retrieves a list of all users.
-- `GET /resources/{id}`: Retrieves the details of a specific user by ID.
-- `POST /resources`: Creates a new user.
-- `PUT /resources/{id}`: Updates an existing user.
-- `DELETE /resources/{id}`: Deletes a user.
+- `GET /api/User`: Retrieves a list of all users.
+- `GET /api/User/{id}`: Retrieves the details of a specific user by ID.
+- `POST /api/User`: Creates a new user.
+- `PUT /api/User/{id}`: Updates an existing user.
+- `DELETE /api/User/{id}`: Deletes a user.
 
 ### Example usage
 
@@ -34,7 +34,7 @@ You can test the endpoints using a tool such as [Postman](https://www.postman.co
 
 - Retrieve a list of resources: `GET http://localhost:7190/api/User`
 - Retrieve a specific resource: `GET http://localhost:7190/api/User/{id}`
-- Create a new resource: `POST http://localhost:5000/api/User (user` with a JSON payload in the request body)
+- Create a new resource: `POST http://localhost:5000/api/User` (user` with a JSON payload in the request body)
 - Update an existing resource: `PUT http://localhost:5000/api/User/{id}` with a JSON payload in the request body
 - Delete a resource: `DELETE http://localhost:5000/api/User/{id}`
 
@@ -42,6 +42,8 @@ You can test the endpoints using a tool such as [Postman](https://www.postman.co
 
 - [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+- [SQL Server 2019](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
+- [Client of Swagger](https://swagger.io/)
 
 ## License
 

@@ -1,106 +1,55 @@
 ﻿# PRUEBA TECNICA MEDISMART
 
-_Acá va un párrafo que describa lo que es el proyecto_
+# My Service
 
-## Comenzando 🚀
+This is a RESTful service built using C# and the ASP.NET Core framework. It provides a simple API for managing a collection of resources.
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+## Getting Started
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
 
-### Pre-requisitos 📋
+- [.NET Core SDK](https://dotnet.microsoft.com/download)
+- A text editor or IDE of your choice (e.g. Visual Studio, Visual Studio Code)
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+### Installing
 
-```
-Da un ejemplo
-```
+1. Clone or download the repository to your local machine.
+2. Open a command prompt or terminal window and navigate to the project's root directory.
+3. Run the command `dotnet restore` to restore the project's dependencies.
+4. Run the command `dotnet run` to start the service.
+5. The service should now be running at `http://localhost:5000/`.
 
-### Instalación 🔧
+### Endpoints
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+- `GET /resources`: Retrieves a list of all resources.
+- `GET /resources/{id}`: Retrieves the details of a specific resource by ID.
+- `POST /resources`: Creates a new resource.
+- `PUT /resources/{id}`: Updates an existing resource.
+- `DELETE /resources/{id}`: Deletes a resource.
 
-_Dí cómo será ese paso_
+### Example usage
 
-```
-Da un ejemplo
-```
+You can test the endpoints using a tool such as [Postman](https://www.postman.com/) or [curl](https://curl.haxx.se/).
 
-_Y repite_
+- Retrieve a list of resources: `GET http://localhost:5000/resources`
+- Retrieve a specific resource: `GET http://localhost:5000/resources/1`
+- Create a new resource: `POST http://localhost:5000/resources` with a JSON payload in the request body
+- Update an existing resource: `PUT http://localhost:5000/resources/1` with a JSON payload in the request body
+- Delete a resource: `DELETE http://localhost:5000/resources/1`
 
-```
-hasta finalizar
-```
+## Built With
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+- [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/)
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
 
-## Ejecutando las pruebas ⚙️
+## License
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analice las pruebas end-to-end 🔩
+## Additional Resources
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+- [RESTful API Design](https://restfulapi.net/)
+- [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+- [ASP.NET Core Web API](https://docs.microsoft.com/en-us/aspnet/core/web-api/)
